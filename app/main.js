@@ -1,7 +1,7 @@
 require('./css/bubble.css');
 require('./css/stars.scss');
 const years = require('./js/getBirthday.js').compute();
-if (!years) {
+if (years) {
   document.getElementById('birthday').remove();
   require('./css/code.css');
   require('./css/full.css');
