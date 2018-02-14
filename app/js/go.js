@@ -17,7 +17,7 @@
       .type('0', '<br>')
       .type('00', '<span class="blank">')
       .wait(10)
-      .type('顺便给小仙女一封好久不见的情书，等下。。。emmmmmmmm~~~~', '<span class="note">') 
+      .type('顺便给小仙女一封好久不见的情书，等下。。。emmmmmmmmmmmm~~~~', '<span class="note">') 
       .wait(10)
       .type('么么哒~o(*≧▽≦)ツ', '<span class="note">', 0)
       .wait(10)
