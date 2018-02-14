@@ -1,7 +1,7 @@
 require('./css/bubble.css');
 require('./css/stars.scss');
 const years = require('./js/getBirthday.js').compute();
-if (years) {
+if (!years) {
   document.getElementById('birthday').remove();
   require('./css/code.css');
   require('./css/full.css');
@@ -9,10 +9,11 @@ if (years) {
   require.ensure([], function(require) {
     const love = require('./js/go.js');
     window.onload = () => {
-     love.go();
+     //love.go();
     }
   })
-} else {
+} 
+else {
   document.getElementById('typer').remove();
   document.getElementById('board').remove();
   require('./css/voice.css');
