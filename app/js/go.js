@@ -52,10 +52,10 @@
       .type('boy', '<span class="gray">')
       .type(':', '<span class="blue">')
       .type('0', '<span class="blank">')
-      .type("'wood'", '<span class="green">')
+      .type("'mon'", '<span class="green">')
       .wait(15)
       .del(6)
-      .type("'洪榕森'", '<span class="green">')
+      .type("'MonsterXu'", '<span class="green">')
       .type(',', '<span class="gray">')
       .type('0', '<br>')
       // 珊珊
@@ -63,7 +63,7 @@
       .type('girl', '<span class="gray">')
       .type(':', '<span class="blue">')
       .type('0', '<span class="blank">')
-      .type("'黄珊珊'", '<span class="green">')
+      .type("'maomaochong'", '<span class="green">')
       .type(',', '<span class="gray">')
       .type('0', '<br>')
       // time
