@@ -2,7 +2,7 @@
   "name": "valentine'sDay",
   "version": "1.0.0",
   "description": "valentine's",
-  "main": "/app/index.js",
+  "main": "index.js",
   "scripts": {
     "server": "export NODE_ENV=dev && webpack-dev-server --open",
     "build": "export NODE_ENV=pro && webpack"
