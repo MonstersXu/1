@@ -274,6 +274,6 @@
       els[0].remove()
     }
   }
-  /*export {
+  export {
     go
-  }*/
+  }
