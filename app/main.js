@@ -9,7 +9,7 @@ if (!years) {
   require.ensure([], function(require) {
     const love = require('./js/go.js');
     window.onload = () => {
-     //love.go();
+    
     }
   })
 } 
@@ -26,7 +26,7 @@ else {
      document.getElementById('birthday').style.display = 'block';
      c.draw();
      window.setTimeout(() => {
-      b.go();
+     
      }, 6000)
     }
   }, 'birthday');
