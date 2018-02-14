@@ -264,7 +264,7 @@
     let comment = document.createElement('div')
     comment.className = 'comment'
     comment.style.bottom = 80 + comentsLength * 55 + 'px'
-    comment.innerHTML = '我想你了'
+    comment.innerHTML = '君君小仙女我爱你~'
     document.body.appendChild(comment)
     
     document.body.appendChild(startsContainer)
