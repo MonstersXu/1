@@ -225,7 +225,7 @@
     }, 2000)
   }
   function count() {
-    const date = new Date('2017/07/10 00:00:00')
+    const date = new Date('2012/06/8 00:00:00')
     let end = new Date()
     let seconds = (Date.parse(end) - Date.parse(date)) / 1000
     let days = Math.floor(seconds / (3600 * 24))
